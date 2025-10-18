@@ -1,5 +1,10 @@
-<script setup></script>
+<script>
+import Jobs from "./views/Jobs.vue";
+export default {
+  components: {
+    Jobs,
+  },
+};
+</script>
 
-<template>
-  <RouterView />
-</template>
+<template><Jobs /></template>
