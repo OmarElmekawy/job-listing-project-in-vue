@@ -1,0 +1,112 @@
+.jobCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 35px 40px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.jobCardContainer:hover {
+  border-left: 4px solid #5da5a4;
+  transform: scale(1.1);
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skillsList ul {
+  list-style: none;
+  padding: 12px;
+}
+
+.skill {
+  padding: 6px 18px;
+  background-color: #e8f3f3;
+
+  border-radius: 6px;
+  color: #5da5a4;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.skill:hover {
+  background-color: #5da5a4;
+  color: white;
+  cursor: pointer;
+}
+
+.titlesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.types p {
+  margin: 0;
+  color: #5da5a4;
+  font-size: 14px;
+}
+.types .version {
+  background-color: #5da5a4;
+  color: white;
+  padding: 3px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.types .feature {
+  background-color: black;
+  color: white;
+  padding: 3px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120%;
+  font-size: 16px;
+}
+.details p {
+  margin: 0;
+  border-radius: 8px;
+  color: #b1b6b7;
+  font-weight: bold;
+}
+
+.title {
+  margin: 8px 0;
+  color: #5da5a4;
+  font-size: 22px;
+  font-weight: bold;
+}
